@@ -33,6 +33,8 @@ requirements:
     - keras {{ keras }}
     
 test:
+  requires:
+    - pip {{ pip }}
   imports:
     - tensorflow
     - tensorflow_estimator

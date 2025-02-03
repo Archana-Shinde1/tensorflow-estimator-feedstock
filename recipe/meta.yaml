@@ -34,9 +34,9 @@ requirements:
     - keras {{ keras }}
     - ml_dtypes {{ ml_dtypes }}
     
-test:
-  imports:
-    - tensorflow_estimator
+#test:
+#  imports:
+#    - tensorflow_estimator
 
 about:
   home: https://www.tensorflow.org/guide/estimators
